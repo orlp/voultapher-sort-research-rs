@@ -167,6 +167,8 @@ def build_implementation_meta_info():
         "lomuto_branchless": (palette[5], "circle"),
         "lomuto_branchless_cyclic": (palette[6], "square_cross"),
         "lomuto_branchless_cyclic_opt": (palette[7], "triangle"),
+        #
+        "rust_driftsort_stable": (palette[7], "square"),
     }
 
     return meta_info
